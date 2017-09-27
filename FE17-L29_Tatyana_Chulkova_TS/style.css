@@ -1,0 +1,37 @@
+
+#calculator{
+    margin: 5% 30%;
+}
+#calculator * {
+    font: bold 18px/12px monospace;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#calculator table {
+    border: solid 3px silver;
+    background-color: #fff;
+}
+
+input.display {
+    height: 30px;
+    text-align: right;
+}
+
+input[type= button] {
+    width: 50px;
+    height: 30px;
+}
+
+.sign {
+    background-color: #0d2;
+    color: #fff;
+}
+
+.equal {
+    background-color: #f90;
+}
+
+.clear {
+    background-color: #f01;
+}

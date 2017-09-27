@@ -1,0 +1,82 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<form name="calc" id="calculator">
+    <table>
+        <tr>
+            <td>
+                <input type="button" name="clear" value="c" data-calc ="clear" class=" sign clear">
+            </td>
+            <td>
+                <input type="button" name="exponentiation" value="^" data-calc="^" class="sign">
+            </td>
+            <td colspan="2">
+                <input type="text" name="input" size="12" class="display" placeholder="0" value="">
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" name="seven" value="7" data-calc="7">
+            </td>
+            <td>
+                <input type="button" name="eight" value="8" data-calc="8">
+            </td>
+            <td>
+                <input type="button" name="nine" value="9" data-calc="9">
+            </td>
+            <td>
+                <input type="button" name="add" value="+" data-calc="+" class="sign">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" name="four" value="4" data-calc="4" >
+            </td>
+            <td>
+                <input type="button" name="five" value="5" data-calc="5">
+            </td>
+            <td>
+                <input type="button" name="six" value="6" data-calc="6">
+            </td>
+            <td>
+                <input type="button" name="sub" value="-" data-calc="-" class="sign">
+            </td>
+            <tr>
+        <td>
+                <input type="button" name="one" value="1" data-calc="1">
+        </td>
+        <td>
+                <input type="button" name="two" value="2" data-calc="2" >
+        </td>
+        <td>
+                <input type="button" name="three" value="3" data-calc="3" >
+        </td>
+        <td>
+                <input type="button" name="div" value="/" data-calc="/" class="sign" >
+        </td>
+    </tr>
+        <tr>
+            <td>
+                <input type="button" name="zero" value="0" data-calc="0" >
+            </td>
+            <td>
+                <input type="button" name="point" value="." data-calc="." ><!--доработать округление-->
+            </td>
+            <td>
+                <input type="button" name="doit" value="=" class="sign equal">
+            </td>
+            <td>
+                <input type="button" name="mul" value="x" data-calc="x" class="sign" >
+            </td>
+        </tr>
+    </table>
+</form>
+<script src="main.js"></script>
+</body>
+</html>
